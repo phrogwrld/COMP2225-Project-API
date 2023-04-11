@@ -1,0 +1,255 @@
+[
+  {
+    "id": 6,
+    "name": "SET 6",
+    "members": [
+      "Shanny",
+      "Cody",
+      "Cyprian",
+      "Leah",
+      "Shimer",
+      "Rico",
+      "Kristen",
+      "Javonn"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 4
+      },
+      {
+        "week": 2,
+        "points": 20
+      },
+      {
+        "week": 3,
+        "points": 7
+      },
+      {
+        "week": 4,
+        "points": 9
+      },
+      {
+        "week": 5,
+        "points": 23
+      }
+    ],
+    "rank": 1,
+    "change": 0
+  },
+  {
+    "id": 4,
+    "name": "SET 4",
+    "members": [
+      "Daley",
+      "Myales",
+      "Mikael",
+      "Nathan Ruck",
+      "Shola"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 0
+      },
+      {
+        "week": 2,
+        "points": 0
+      },
+      {
+        "week": 3,
+        "points": 0
+      },
+      {
+        "week": 4,
+        "points": 5
+      },
+      {
+        "week": 5,
+        "points": 0
+      },
+      {
+        "week": 6,
+        "points": 12
+      }
+    ],
+    "rank": 2,
+    "change": 3
+  },
+  {
+    "id": 7,
+    "name": "SET 7",
+    "members": [
+      "Kenez",
+      "Bianca",
+      "Jonnathan",
+      "Kayla",
+      "Daleigh",
+      "Jason",
+      "Damario",
+      "Dominic"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 0
+      },
+      {
+        "week": 2,
+        "points": 12
+      },
+      {
+        "week": 3,
+        "points": 0
+      }
+    ],
+    "rank": 3,
+    "change": -1
+  },
+  {
+    "id": 3,
+    "name": "SET 3",
+    "members": [
+      "Faith",
+      "Antione",
+      "Zach",
+      "Christopher Mapp",
+      "Nathan Taylor",
+      "Tristan"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 4
+      },
+      {
+        "week": 2,
+        "points": 2
+      },
+      {
+        "week": 3,
+        "points": 4
+      }
+    ],
+    "rank": 4,
+    "change": -1
+  },
+  {
+    "id": 1,
+    "name": "SET 1",
+    "members": [
+      "Sharefah",
+      "Terry",
+      "Kai",
+      "Xavier",
+      "Christopher Agard",
+      "Aahron"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 9
+      },
+      {
+        "week": 2,
+        "points": 0
+      },
+      {
+        "week": 3,
+        "points": 0
+      }
+    ],
+    "rank": 5,
+    "change": -1
+  },
+  {
+    "id": 8,
+    "name": "SET 8",
+    "members": [
+      "Che",
+      "Kumar",
+      "Solia",
+      "Tamika",
+      "Keziah",
+      "Ean"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 0
+      },
+      {
+        "week": 2,
+        "points": 0
+      },
+      {
+        "week": 3,
+        "points": 0
+      }
+    ],
+    "rank": 6,
+    "change": 0
+  },
+  {
+    "id": 2,
+    "name": "SET 2",
+    "members": [
+      "Amir",
+      "Shaquan",
+      "Aren",
+      "Raanan",
+      "Lyondra",
+      "Daveron"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 0
+      },
+      {
+        "week": 2,
+        "points": 0
+      },
+      {
+        "week": 3,
+        "points": 0
+      },
+      {
+        "week": 4,
+        "points": 0
+      }
+    ],
+    "rank": 7,
+    "change": 0
+  },
+  {
+    "id": 5,
+    "name": "SET 5",
+    "members": [
+      "Adrian",
+      "Dontae",
+      "Crystal",
+      "Annesa",
+      "Anson",
+      "Jacob",
+      "Stephanie",
+      "Aaron"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 0
+      },
+      {
+        "week": 2,
+        "points": 0
+      },
+      {
+        "week": 3,
+        "points": 0
+      }
+    ],
+    "rank": 8,
+    "change": 0
+  }
+]
