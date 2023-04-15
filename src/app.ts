@@ -9,7 +9,7 @@ import { Server, IncomingMessage, ServerResponse } from 'http';
 import teams from './data/teams.json';
 import * as fs from 'fs';
 import path from 'path';
-import { Credentials, TeamData } from './types';
+import { Credentials, TeamData, Metrics, WeekPoints } from './types';
 
 class App {
   private server: FastifyInstance;
@@ -71,7 +71,16 @@ class App {
           (week) => week.week === parseInt(request.params.week)
         );
         if (!week) {
-          week = { week: parseInt(request.params.week), points: 0 };
+          week = {
+            week: parseInt(request.params.week),
+            points: 0,
+            metrics: {
+              requirements_volatility: 0,
+              spec_docs: 0,
+              size_lines_of_code: 0,
+              design_faults: 0,
+            },
+          };
           team.weeks.push(week);
         }
 
@@ -86,7 +95,12 @@ class App {
       async (
         request: FastifyRequest<{
           Params: { id: string; week: string };
-          Body: { points: number };
+          Body: {
+            requirements_volatility: number;
+            spec_docs: number;
+            size_lines_of_code: number;
+            design_faults: number;
+          };
         }>,
         reply
       ) => {
@@ -100,15 +114,27 @@ class App {
           return { message: `Team ${request.params.id} not found` };
         }
 
+        teams.find;
         const week = team.weeks.find(
-          (week) => week.week === parseInt(request.params.week)
+          (week: WeekPoints) => week.week === parseInt(request.params.week)
         );
         if (!week) {
           reply.code(404);
           return { message: `Week ${request.params.week} not found` };
         }
 
-        week.points = request.body.points;
+        const metric1 = request.body.requirements_volatility * 10;
+        const metric2 = request.body.spec_docs * 10;
+        const metric3 = request.body.size_lines_of_code * 10;
+        const metric4 = request.body.design_faults * -10;
+
+        week.points = metric1 + metric2 + metric3 + metric4;
+        week.metrics = {
+          requirements_volatility: request.body.requirements_volatility,
+          spec_docs: request.body.spec_docs,
+          size_lines_of_code: request.body.size_lines_of_code,
+          design_faults: request.body.design_faults,
+        };
 
         const sortedTeams = [...teams].sort((a: TeamData, b: TeamData) => {
           const bTotal = b.weeks.reduce((acc, week) => acc + week.points, 0);

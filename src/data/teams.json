@@ -1,5 +1,31 @@
 [
   {
+    "id": 1,
+    "name": "SET 1",
+    "members": [
+      "Sharefah",
+      "Terry",
+      "Kai",
+      "Xavier",
+      "Christopher Agard",
+      "Aahron"
+    ],
+    "weeks": [
+      {
+        "week": 1,
+        "points": 90,
+        "metrics": {
+          "requirements_volatility": 4,
+          "spec_docs": 4,
+          "size_lines_of_code": 4,
+          "design_faults": 3
+        }
+      }
+    ],
+    "rank": 1,
+    "change": 4
+  },
+  {
     "id": 6,
     "name": "SET 6",
     "members": [
@@ -15,27 +41,17 @@
     "weeks": [
       {
         "week": 1,
-        "points": 4
-      },
-      {
-        "week": 2,
-        "points": 20
-      },
-      {
-        "week": 3,
-        "points": 7
-      },
-      {
-        "week": 4,
-        "points": 9
-      },
-      {
-        "week": 5,
-        "points": 23
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 1,
-    "change": 0
+    "rank": 2,
+    "change": -1
   },
   {
     "id": 4,
@@ -50,31 +66,17 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0
-      },
-      {
-        "week": 2,
-        "points": 0
-      },
-      {
-        "week": 3,
-        "points": 0
-      },
-      {
-        "week": 4,
-        "points": 5
-      },
-      {
-        "week": 5,
-        "points": 0
-      },
-      {
-        "week": 6,
-        "points": 12
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 2,
-    "change": 3
+    "rank": 3,
+    "change": -1
   },
   {
     "id": 7,
@@ -92,18 +94,16 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0
-      },
-      {
-        "week": 2,
-        "points": 12
-      },
-      {
-        "week": 3,
-        "points": 0
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 3,
+    "rank": 4,
     "change": -1
   },
   {
@@ -120,43 +120,13 @@
     "weeks": [
       {
         "week": 1,
-        "points": 4
-      },
-      {
-        "week": 2,
-        "points": 2
-      },
-      {
-        "week": 3,
-        "points": 4
-      }
-    ],
-    "rank": 4,
-    "change": -1
-  },
-  {
-    "id": 1,
-    "name": "SET 1",
-    "members": [
-      "Sharefah",
-      "Terry",
-      "Kai",
-      "Xavier",
-      "Christopher Agard",
-      "Aahron"
-    ],
-    "weeks": [
-      {
-        "week": 1,
-        "points": 9
-      },
-      {
-        "week": 2,
-        "points": 0
-      },
-      {
-        "week": 3,
-        "points": 0
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
     "rank": 5,
@@ -176,15 +146,13 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0
-      },
-      {
-        "week": 2,
-        "points": 0
-      },
-      {
-        "week": 3,
-        "points": 0
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
     "rank": 6,
@@ -204,19 +172,13 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0
-      },
-      {
-        "week": 2,
-        "points": 0
-      },
-      {
-        "week": 3,
-        "points": 0
-      },
-      {
-        "week": 4,
-        "points": 0
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
     "rank": 7,
@@ -238,15 +200,13 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0
-      },
-      {
-        "week": 2,
-        "points": 0
-      },
-      {
-        "week": 3,
-        "points": 0
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
     "rank": 8,

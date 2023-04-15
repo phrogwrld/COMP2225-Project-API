@@ -32,4 +32,12 @@ export interface TeamData {
 export interface WeekPoints {
   week: number;
   points: number;
+  metrics?: Metrics;
+}
+
+export interface Metrics {
+  req_vola?: number;
+  no_pg_spec?: number;
+  size_standard?: nummber;
+  design_faults?: number;
 }
