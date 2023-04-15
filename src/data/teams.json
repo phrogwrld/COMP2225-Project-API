@@ -20,10 +20,30 @@
           "size_lines_of_code": 4,
           "design_faults": 3
         }
+      },
+      {
+        "week": 2,
+        "points": 50,
+        "metrics": {
+          "requirements_volatility": 2,
+          "spec_docs": 3,
+          "size_lines_of_code": 3,
+          "design_faults": 3
+        }
+      },
+      {
+        "week": 3,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 1,
+          "spec_docs": 0,
+          "size_lines_of_code": 2,
+          "design_faults": 3
+        }
       }
     ],
-    "rank": 1,
-    "change": 4
+    "rank": 2,
+    "change": 0
   },
   {
     "id": 6,
@@ -48,10 +68,30 @@
           "size_lines_of_code": 0,
           "design_faults": 0
         }
+      },
+      {
+        "week": 2,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 2,
-    "change": -1
+    "rank": 4,
+    "change": 0
   },
   {
     "id": 4,
@@ -73,10 +113,30 @@
           "size_lines_of_code": 0,
           "design_faults": 0
         }
+      },
+      {
+        "week": 2,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 3,
-    "change": -1
+    "rank": 5,
+    "change": 0
   },
   {
     "id": 7,
@@ -101,10 +161,30 @@
           "size_lines_of_code": 0,
           "design_faults": 0
         }
+      },
+      {
+        "week": 2,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 4,
-    "change": -1
+    "rank": 6,
+    "change": 0
   },
   {
     "id": 3,
@@ -120,6 +200,26 @@
     "weeks": [
       {
         "week": 1,
+        "points": 50,
+        "metrics": {
+          "requirements_volatility": 3,
+          "spec_docs": 2,
+          "size_lines_of_code": 1,
+          "design_faults": 1
+        }
+      },
+      {
+        "week": 2,
+        "points": 60,
+        "metrics": {
+          "requirements_volatility": 2,
+          "spec_docs": 2,
+          "size_lines_of_code": 2,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
         "points": 0,
         "metrics": {
           "requirements_volatility": 0,
@@ -129,8 +229,8 @@
         }
       }
     ],
-    "rank": 5,
-    "change": -1
+    "rank": 3,
+    "change": 0
   },
   {
     "id": 8,
@@ -153,9 +253,29 @@
           "size_lines_of_code": 0,
           "design_faults": 0
         }
+      },
+      {
+        "week": 2,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
       }
     ],
-    "rank": 6,
+    "rank": 7,
     "change": 0
   },
   {
@@ -172,16 +292,36 @@
     "weeks": [
       {
         "week": 1,
-        "points": 0,
+        "points": 40,
         "metrics": {
-          "requirements_volatility": 0,
-          "spec_docs": 0,
-          "size_lines_of_code": 0,
-          "design_faults": 0
+          "requirements_volatility": 2,
+          "spec_docs": 3,
+          "size_lines_of_code": 1,
+          "design_faults": 2
+        }
+      },
+      {
+        "week": 2,
+        "points": 70,
+        "metrics": {
+          "requirements_volatility": 4,
+          "spec_docs": 3,
+          "size_lines_of_code": 2,
+          "design_faults": 2
+        }
+      },
+      {
+        "week": 3,
+        "points": 90,
+        "metrics": {
+          "requirements_volatility": 5,
+          "spec_docs": 3,
+          "size_lines_of_code": 2,
+          "design_faults": 1
         }
       }
     ],
-    "rank": 7,
+    "rank": 1,
     "change": 0
   },
   {
@@ -200,6 +340,26 @@
     "weeks": [
       {
         "week": 1,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 2,
+        "points": 0,
+        "metrics": {
+          "requirements_volatility": 0,
+          "spec_docs": 0,
+          "size_lines_of_code": 0,
+          "design_faults": 0
+        }
+      },
+      {
+        "week": 3,
         "points": 0,
         "metrics": {
           "requirements_volatility": 0,
